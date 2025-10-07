@@ -1,0 +1,215 @@
+body {
+  background-image: url("img/background.png");
+  background-size: cover;
+  height: 130vh;
+}
+
+.hi {
+  position: absolute;
+  top: 180px;
+  left: 10px;
+  font-size: 20px;
+  font-family: inter;
+  font-weight: 1000px;
+}
+.name {
+  position: absolute;
+  top: 125px;
+  left: 20px;
+  font-size: 85px;
+  font-family: BBH Sans Bartle;
+}
+
+.p2 {
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  font-size: 45px;
+  font-family: inter;
+}
+
+.p3 {
+  position: absolute;
+  top: 330px;
+  left: 10px;
+  font-size: 18px;
+  font-family: inter;
+}
+
+.giticon {
+  position: absolute;
+  top: 378px;
+  left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.p4 {
+  position: absolute;
+  top: 700px;
+  left: 893px;
+  font-size: 15px;
+  font-family: inter;
+  font-weight: 800;
+}
+
+.name2 {
+  position: absolute;
+  top: 730px;
+  left: 890px;
+  font-size: 25px;
+  font-family: BBH Sans Bartle;
+}
+
+.p5 {
+  position: absolute;
+  top: 775px;
+  left: 824px;
+  font-size: 20px;
+  font-family: inter;
+  width: 270px;
+  line-height: 25px;
+}
+
+.mys {
+  position: absolute;
+  top: 1060px;
+  left: 893px;
+  font-size: 15px;
+  font-family: inter;
+  font-weight: 800;
+}
+
+.html {
+  position: absolute;
+  top: 1110px;
+  left: 760px;
+  width: 65px;
+  height: 65px;
+}
+
+.css {
+  position: absolute;
+  top: 1110px;
+  left: 850px;
+  width: 65px;
+  height: 65px;
+}
+
+.js {
+  position: absolute;
+  top: 1110px;
+  left: 940px;
+  width: 65px;
+  height: 65px;
+}
+
+.react {
+  position: absolute;
+  top: 1110px;
+  left: 1030px;
+  width: 65px;
+  height: 65px;
+}
+
+.ms {
+  position: absolute;
+  top: 1178px;
+  left: 893px;
+  font-size: 15px;
+  font-family: inter;
+  font-weight: 800;
+}
+
+.socials {
+  position: absolute;
+  top: 1200px;
+  left: 640px;
+  font-family: BBH Sans Bartle;
+}
+
+.banner {
+  background-color: white;
+  height: 60px;
+  font-size: 1px;
+}
+
+.home {
+  position: absolute;
+  top: 10px;
+  left: 1450px;
+  font-family: inter;
+}
+
+.about {
+  position: absolute;
+  top: 10px;
+  left: 1550px;
+  font-family: inter;
+}
+
+.zyy {
+  position: absolute;
+  top: 10px;
+  left: 40px;
+  font-family: BBH Sans Bartle;
+}
+
+.projects {
+  position: absolute;
+  top: 10px;
+  left: 1650px;
+  font-family: inter;
+}
+
+.animated-button {
+  position: absolute;
+  top: 15px;
+  left: 1750px;
+  font-family: inter;
+  display: inline-block;
+  padding: 12px 24px;
+  border: none;
+  font-size: 16px;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #00000040;
+  box-shadow: 0 0 0 2px #00000020;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button span:last-child {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #c6c6c6;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button span:first-child {
+  position: relative;
+  z-index: 1;
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 5px #00000060;
+  color: #000000;
+}
+
+.animated-button:active {
+  scale: 0.95;
+}
+
+.animated-button:hover span:last-child {
+  width: 150px;
+  height: 150px;
+  opacity: 1;
+}
